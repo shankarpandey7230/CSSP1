@@ -17,3 +17,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.navbar {
+  border: 2px solid white;
+}
+.header .logo,
+.header .navbar a {
+  color: white;
+}
+
+.header .navbar .logo {
+  float: left;
+}
+.header .navbar .nav-items {
+  float: right;
+}
+.header .navbar .nav-item {
+  display: inline-block;
+}
+.navbar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
