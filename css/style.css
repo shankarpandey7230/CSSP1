@@ -9,6 +9,53 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+p,
+li {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+}
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+}
+
+/* ############### Utility Classes ######################### */
+
+.lg-heading {
+  font-size: 3.5rem;
+}
+.md-heading {
+  font-size: 2.2rem;
+}
+.text-red {
+  color: #e63946;
+}
+.text-light {
+  color: #f4f4f4;
+}
+.text-black {
+  color: #333;
+}
+.text-grey {
+  color: #555;
+}
+
 .header {
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -19,10 +66,7 @@ body {
 }
 .navbar {
   border: 2px solid white;
-}
-.header .logo,
-.header .navbar a {
-  color: white;
+  padding: 1rem;
 }
 
 .header .navbar .logo {
@@ -30,9 +74,16 @@ body {
 }
 .header .navbar .nav-items {
   float: right;
+  margin-top: 1rem;
 }
 .header .navbar .nav-item {
   display: inline-block;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.navbar a:link,
+.navbar a:visited {
+  color: #f4f4f4;
 }
 .navbar::after {
   content: "";
