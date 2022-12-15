@@ -74,6 +74,12 @@ h3 {
   background-color: #fff;
   border-radius: 10rem;
 }
+.btn-secondary {
+  border: 2px solid #e63946;
+  border-radius: 1.5rem;
+  color: #e63946;
+  background-color: white;
+}
 /* #################### header styling ################## */
 
 .header {
