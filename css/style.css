@@ -243,3 +243,27 @@ h3 {
   border: 3px solid #e63946;
   width: 100%;
 }
+/* ###### about wrapper style ######## */
+.about-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+.about-wrapper .left {
+  float: left;
+  width: 50%;
+}
+.about-wrapper .right {
+  float: right;
+  width: 50%;
+}
+.about-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.about-wrapper li::before {
+  content: "\2713";
+  color: #e63946;
+  font-weight: bold;
+  padding-right: 1rem;
+}
