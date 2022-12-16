@@ -63,6 +63,9 @@ h3 {
 .text-grey {
   color: #555;
 }
+.bg-dark {
+  background-color: #263238;
+}
 .btn {
   display: inline-block;
   padding: 0.5em 1.5em;
@@ -102,14 +105,14 @@ h3 {
   padding: 1rem;
 }
 
-.header .navbar .logo {
+.navbar .logo {
   float: left;
 }
-.header .navbar .nav-items {
+.navbar .nav-items {
   float: right;
   margin-top: 1rem;
 }
-.header .navbar .nav-item {
+.navbar .nav-item {
   display: inline-block;
   padding: 1rem;
   text-transform: uppercase;
@@ -228,4 +231,9 @@ h3 {
 
 .social-media-links i {
   margin: 2rem;
+}
+
+/* #########about Page styling ########## */
+.about {
+  padding: 5rem 0;
 }
