@@ -199,13 +199,12 @@ h3 {
 .box {
   width: 33.3333%;
   float: left;
-
   padding: 2rem;
   text-align: center;
 }
 .box-1,
 .box-3 {
-  background-color: #253238;
+  background-color: #263238;
   color: white;
 }
 .box-2 {
@@ -216,4 +215,17 @@ h3 {
   content: "";
   display: block;
   clear: both;
+}
+
+/* ############Footer styling ######### */
+.footer {
+  margin-top: 20px;
+  background: #263238;
+  color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.social-media-links i {
+  margin: 2rem;
 }
