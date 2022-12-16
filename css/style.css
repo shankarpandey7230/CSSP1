@@ -237,3 +237,9 @@ h3 {
 .about {
   padding: 5rem 0;
 }
+.about-heading::after {
+  content: "";
+  display: block;
+  border: 3px solid #e63946;
+  width: 100%;
+}
