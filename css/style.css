@@ -333,3 +333,26 @@ h3 {
   display: block;
   clear: both;
 }
+/* ##########contact page styling ############# */
+
+.contact-form {
+  padding: 5rem 0;
+}
+.form-wrapper {
+  border: 10px solid red;
+}
+.company-address {
+  border: 4px dotted green;
+  width: 49%;
+  float: left;
+}
+.form {
+  border: 4px dotted black;
+  width: 49%;
+  float: right;
+}
+.form-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
